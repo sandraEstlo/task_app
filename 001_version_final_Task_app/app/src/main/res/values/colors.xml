@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="melocoton">#F2B5A7</color>
+    <color name="rosa_nube">#F2BDD6</color>
+    <color name="lila">#AC9FBF</color>
+    <color name="semi_mostaza">#F2D479</color>
+    <color name="gris_perla">#D3D3D3</color>
+</resources>

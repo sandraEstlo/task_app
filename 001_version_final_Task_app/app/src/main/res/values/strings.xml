@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">001_Task_app_version_final</string>
+    <string name="nombre">Nombre</string>
+    <string name="pass">Contraseña</string>
+    <string name="log_in">Log in</string>
+    <string name="gestion_tareas">Gestion de\ntareas</string>
+    <string name="pendientes">Pendientes</string>
+    <string name="realizadas">Realizadas</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="usuario">Usuario</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="registrar">Registrar</string>
+    <string name="nueva_tarea">Nueva Tarea</string>
+    <string name="crear">Crear</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="titulo">Titulo</string>
+    <string name="suma">+</string>
+    <string name="title_activity_intro_logo">intro_logo</string>
+    <string name="image_description">fondo</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="filtrar">Filtrar</string>
+    <string name="borrar">Borrar</string>
+</resources>

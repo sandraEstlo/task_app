@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="40dp">
+
+    <ImageView
+        android:id="@+id/cerrar"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|top"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        app:tint="@color/black"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/cerrar"/>
+
+    <EditText
+        android:id="@+id/editTextUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:textSize="15sp"
+        android:hint="@string/usuario"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextClave"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:hint="@string/contrase_a"
+        android:inputType="textPassword"
+        android:layout_marginBottom="30dp"
+        android:padding="10dp"
+        android:textSize="15sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registrar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textAllCaps="false"
+        android:background="@drawable/boton_redondeado_negro"
+        android:text="@string/registrar"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/white" />
+
+</LinearLayout>

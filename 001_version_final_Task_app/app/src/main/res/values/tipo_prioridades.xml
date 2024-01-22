@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prioridades">
+        <item>Crucial</item>
+        <item>Estrategico</item>
+        <item>Inmediato</item>
+        <item>Ocasional</item>
+    </string-array>
+</resources>

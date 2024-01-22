@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Lista_tareas">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.075" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.12" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.280" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.340" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.385" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.410" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ghStartFlotante"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.86" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.916" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.950" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gv0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gv1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gv2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.13" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gv3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.21" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gv4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.77" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gv5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.87" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gv6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.93" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gv7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="1" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/gh1"
+        app:layout_constraintEnd_toStartOf="@+id/gv3"
+        app:layout_constraintStart_toStartOf="@+id/gv1"
+        app:layout_constraintTop_toTopOf="@+id/gh2"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/gestion_tareas"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="46sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gh4"
+        app:layout_constraintEnd_toStartOf="@+id/gv6"
+        app:layout_constraintStart_toStartOf="@+id/gv1"
+        app:layout_constraintTop_toTopOf="@+id/gh3" />
+
+    <Button
+        android:id="@+id/btnFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_filtrar"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="Filtrar"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/gh6"
+        app:layout_constraintStart_toStartOf="@+id/gv1"
+        app:layout_constraintTop_toTopOf="@+id/gh5"/>
+
+    <Switch
+        android:id="@+id/switchSelector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toggle_background"
+        android:textOff="@string/pendientes"
+        android:textOn="@string/realizadas"
+        app:layout_constraintBottom_toTopOf="@+id/gh6"
+        app:layout_constraintEnd_toStartOf="@+id/gv6"
+        app:layout_constraintStart_toStartOf="@+id/gv4"
+        app:layout_constraintTop_toTopOf="@+id/gh5"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:paddingRight="6dp"
+        android:paddingLeft="6dp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewTasks"
+        android:layout_width="0dp"
+        android:layout_height="365dp"
+        android:divider="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/gh8"
+        app:layout_constraintEnd_toStartOf="@+id/gv6"
+        app:layout_constraintStart_toStartOf="@+id/gv1"
+        app:layout_constraintTop_toTopOf="@+id/gh7"
+        android:nestedScrollingEnabled="true"
+        android:choiceMode="none"
+        tools:ignore="NotSibling" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/botonCrear"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="end|bottom"
+        android:background="@drawable/nueva_tarea_boton_flotante"
+        android:text="@string/suma"
+        android:textColor="@color/white"
+        android:textSize="41sp"
+        app:layout_constraintBottom_toTopOf="@+id/gh9"
+        app:layout_constraintEnd_toStartOf="@+id/gv6"
+        app:layout_constraintStart_toStartOf="@+id/gv4"
+        app:layout_constraintTop_toTopOf="@+id/ghStartFlotante"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

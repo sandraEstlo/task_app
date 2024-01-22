@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/crear_nota_background"
+    android:padding="70dp"
+    android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/nuevaTarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/nueva_tarea"
+        android:textSize="25sp"
+        android:layout_marginBottom="50dp"/>
+
+    <EditText
+        android:id="@+id/editTextTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textSize="15sp"
+        android:hint="@string/titulo"
+        android:padding="10dp"
+        android:layout_marginStart="-10dp"
+        android:layout_marginBottom="5dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:hint="@string/descripcion"
+        android:padding="10dp"
+        android:layout_marginStart="-10dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="15sp" />
+
+    <Spinner
+        android:id="@+id/tipoPrioridad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="-8dp"
+        android:textSize="15sp"
+        android:entries="@array/prioridades"
+        android:layout_marginBottom="40dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/crearNota"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAllCaps="false"
+        android:background="@drawable/boton_redondeado_negro"
+        android:text="@string/crear"
+        android:textColor="@color/white" />
+</LinearLayout>

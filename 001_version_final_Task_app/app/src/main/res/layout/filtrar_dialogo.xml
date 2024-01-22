@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="40dp">
+
+    <Spinner
+        android:id="@+id/tipoPrioridad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="8dp"
+        android:textSize="15sp"
+        android:entries="@array/prioridades"
+        android:layout_marginBottom="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFiltrar"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:textAllCaps="false"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/btn_filtrar_style"
+            android:text="@string/filtrar"
+            android:textColor="@color/black"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnBorrar"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_filtrar_style"
+            android:text="@string/borrar"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</LinearLayout>

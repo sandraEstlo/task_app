@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Login">
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.26" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.32" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.49" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.51" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.5776" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.5917" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.71" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.78" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.9088" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gh10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gv0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gv1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.2204" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gv2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.3574" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gv3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.6342" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gv4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="0.7796" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gv5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintGuide_percent="1" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgDegradado"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/gradiant"
+        app:layout_constraintBottom_toBottomOf="@id/gh10"
+        app:layout_constraintEnd_toEndOf="@id/gv5"
+        app:layout_constraintStart_toStartOf="@id/gv0"
+        app:layout_constraintTop_toTopOf="@id/gh0" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/gh2"
+        app:layout_constraintEnd_toStartOf="@+id/gv3"
+        app:layout_constraintStart_toStartOf="@+id/gv2"
+        app:layout_constraintTop_toTopOf="@+id/gh1"
+        app:srcCompat="@drawable/logo" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/ediTextName"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="@string/nombre"
+        app:layout_constraintBottom_toTopOf="@+id/gh4"
+        app:layout_constraintEnd_toStartOf="@id/gv4"
+        app:layout_constraintStart_toEndOf="@id/gv1" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/ediTextPassword"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:hint="@string/pass"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/gh6"
+        app:layout_constraintEnd_toStartOf="@id/gv4"
+        app:layout_constraintStart_toEndOf="@id/gv1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="@string/log_in"
+        style="@style/BotonRedondeadoNegro"
+        app:layout_constraintBottom_toTopOf="@+id/gh8"
+        app:layout_constraintEnd_toStartOf="@id/gv4"
+        app:layout_constraintStart_toEndOf="@id/gv1"
+        app:layout_constraintTop_toBottomOf="@id/gh7" />
+</androidx.constraintlayout.widget.ConstraintLayout>
