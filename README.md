@@ -27,8 +27,6 @@ El proyecto consiste en desarrollar una aplicación móvil de gestión de tareas
 - **Multimedia (Audio y/o Video):** Integrar la capacidad de añadir archivos de audio y/o video a las tareas, si es relevante para la gestión de tareas.
 - **Memoria:** Preparar una memoria detallada que aborde aspectos clave del proyecto.
 
-## Diseño de la aplicación
-
 ## Diseño de la páginas principales
 
 ![Añadir un poco de texto (1).png](Untitled%2066b4ef4ab64b473eae15a7d01af91813/Aadir_un_poco_de_texto_(1).png)
